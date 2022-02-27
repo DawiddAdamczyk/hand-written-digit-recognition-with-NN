@@ -1,10 +1,20 @@
 # hand-written-digit-recognition-with-NN
 Implemented from scratch neural network for recognition of hand written digits. Tested and trained against the MNIST dataset, which contains 60,000 training data examples and a test dataset of 10,000 elements. The images are stored in grayscale and have dimensions of 28x28.
 
+Built using Numba, Pickle and Pillow libraries.
 
 Written as a part of "Artificial Intelligence" course taken at Gdańsk University of Technology, 2020.
 # Status of project
 This project has been completed. 
+# Setup
+In order to work requires MNIST dataset to be put inside main directory from:
+http://yann.lecun.com/exdb/mnist/
+```
+train-images-idx3-ubyte.gz:  training set images (9912422 bytes) 
+train-labels-idx1-ubyte.gz:  training set labels (28881 bytes) 
+t10k-images-idx3-ubyte.gz:   test set images (1648877 bytes)
+t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)
+```
 # Neural network
 ## Description of used method
 A gradient algorithm with back propagation was used to build the network. The network consists of interconnected layers, starting from input layer (in case of MNIST vector size is 28x28=784), through hidden layers, ending on output layer (vector 10 giving the probability of guessing a given digit).
