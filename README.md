@@ -7,8 +7,8 @@ Written as a part of "Artificial Intelligence" course taken at Gdańsk Universit
 # Status of project
 This project has been completed. 
 # Setup
-In order to work requires MNIST dataset to be put inside main directory from:
-http://yann.lecun.com/exdb/mnist/
+In order to work requires [MNIST dataset](http://yann.lecun.com/exdb/mnist/) to be put inside main directory from:
+
 ```
 train-images-idx3-ubyte.gz:  training set images (9912422 bytes) 
 train-labels-idx1-ubyte.gz:  training set labels (28881 bytes) 
